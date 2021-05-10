@@ -1,6 +1,7 @@
 import React from 'react';
 import './JobMarket.scss';
-import List from '../components/List/List';
+import {List} from 'react-router-dom';
+
 
 const jobMarket = ()=>{
   return ( 
@@ -9,9 +10,11 @@ const jobMarket = ()=>{
           <img className='primaryBackground' src='./assets/Path 135.png'/>
           <div className='primaryTitle'>
             <h3>how is the <br/> <span>Job market looking?</span></h3>
-            <button>Map</button>
-            <button>List</button> 
-                  
+            <Link to='/Link'><button>Map</button></Link> 
+            <button>List</button>
+          </div>
+          <div>
+
           </div>
         </div>
     </div>

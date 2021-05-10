@@ -1,6 +1,7 @@
 import React from 'react';
 import './JobMarket.scss';
-import List from '../components/List/List';
+
+
 
 const jobMarket = ()=>{
   return ( 
@@ -10,8 +11,7 @@ const jobMarket = ()=>{
           <div className='primaryTitle'>
             <h3>how is the <br/> <span>Job market looking?</span></h3>
             <button>Map</button>
-            <button>List</button> 
-                  
+                    
           </div>
         </div>
     </div>

@@ -9,7 +9,7 @@ const jobMarket = ()=>{
           <img className='primaryBackground' src='./assets/Path 135.png'/>
           <div className='primaryTitle'>
             <h3>how is the <br/> <span>Job market looking?</span></h3>
-            <button>Map</button>
+            <button onClick='<List/>'>Map</button>
             <button>List</button> 
                   
           </div>

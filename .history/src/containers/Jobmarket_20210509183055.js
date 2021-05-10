@@ -11,7 +11,7 @@ const jobMarket = ()=>{
             <h3>how is the <br/> <span>Job market looking?</span></h3>
             <button>Map</button>
             <button>List</button> 
-                  
+            <List/>       
           </div>
         </div>
     </div>
