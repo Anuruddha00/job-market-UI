@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 0.875rem;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(145, 145, 142);
+}
+
+.container{
+   
+    &::before{
+        content: '';
+        position: absolute;
+        height: 100px;
+        bottom: -70px;
+        right: 0;
+        left: 0;
+        background-color: #ffffff;
+        transform: skewY(-3deg);
+    }  
+}
