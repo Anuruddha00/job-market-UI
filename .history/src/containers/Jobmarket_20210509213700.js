@@ -1,6 +1,6 @@
 import React from 'react';
 import './JobMarket.scss';
-import Switch from './Switch';
+import './Switch.scss';
 
 const jobMarket = ()=>{
   return ( 
@@ -10,7 +10,11 @@ const jobMarket = ()=>{
           <div className='primaryTitle'>
             <h3>how is the <br/> <span>Job market looking?</span></h3>        
           </div>
-          <Switch/>
+          
+          <span class="switcher switcher-2">
+   <input type="checkbox" id="switcher-2"/>
+   <label for="switcher-2"></label>
+</span>
         </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 import './JobMarket.scss';
-import Switch from './Switch';
+import './Switch.scss';
 
 const jobMarket = ()=>{
   return ( 
@@ -10,7 +10,7 @@ const jobMarket = ()=>{
           <div className='primaryTitle'>
             <h3>how is the <br/> <span>Job market looking?</span></h3>        
           </div>
-          <Switch/>
+        
         </div>
     </div>
   );
